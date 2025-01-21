@@ -5,4 +5,9 @@
   },
   "include": ["src", "turbo"],
   "exclude": ["node_modules", "dist"]
+  ,
+"dependencies": {
+  "@repo/ui": "*"
+},
+
 }

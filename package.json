@@ -8,7 +8,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "nock": "^13.5.5",
     "prettier": "^3.2.5",
+    "prisma": "^5.18.0",
     "turbo": "^2.2.3",
     "typescript": "5.5.4"
   },
@@ -19,5 +21,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "aws-sdk": "^2.1691.0",
+    "ts-node": "^10.9.2"
+  }
 }
